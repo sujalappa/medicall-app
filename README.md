@@ -1,10 +1,8 @@
-# SalesLens — Real-Time Sales Call Intelligence
+# MediCall — AI-powered Clinical Intelligence
 
-Upload a sales call, stream transcription in real time, get AI-powered insights, and ask grounded questions over the transcript.
+Upload a medical call, stream transcription in real time, get AI-powered clinical insights (like SOAP notes), and ask grounded questions over the transcript.
 
 ## Architecture
-
-![Architecture Diagram](docs/architecture.png)
 
 ```
 POST /calls/upload          →  save audio, create DB record
@@ -18,22 +16,21 @@ GET  /calls                 →  list all past calls
 
 1. **Transcription** — faster-whisper (medium, CUDA, beam=5, VAD filter)
 2. **Diarization** — pyannote/speaker-diarization-3.1 (forced 2 speakers)
-3. **Role identification** — LLM maps speaker labels to Agent/Customer
-4. **Intelligence** — LLM detects objections, action items, topics, scoring
-5. **RAG indexing** — sentence-transformers embeddings + FAISS vector store
+3. **Role identification** — LLM maps speaker labels to Physician/Patient
+4. **Intelligence** — LLM generates SOAP notes, extracts symptoms and prescriptions
+5. **RAG indexing** — Hugging Face Inference API embeddings + FAISS vector store
 
 ## Core Features
 
 - Audio upload (`.mp3`/`.wav`) with call session creation
 - Real-time transcript streaming over WebSocket with word-by-word updates
-- Post-call intelligence:
-  - Objection detection with severity
-  - Sentiment timeline
-  - Action item extraction with priority
-  - Call score (0–100) with multi-dimensional breakdown
-  - Key topics and executive summary
+- Post-call clinical intelligence:
+  - Structured SOAP note generation
+  - Patient Sentiment timeline
+  - Extracted symptoms and prescribed medications
+  - Follow-up recommendations
 - RAG-powered Q&A over transcript with timestamp citations
-- Speaker diarization with Agent/Customer role identification
+- Speaker diarization with Physician/Patient role identification
 - Persistent call history with searchable transcripts
 
 ## Tech Stack
@@ -102,7 +99,7 @@ Set `NEXT_PUBLIC_API_URL=http://localhost:8000` in `frontend/.env.local`.
 ## Project Structure
 
 ```
-sales-lens/
+medicall-app/
 ├── backend/
 │   ├── app/
 │   │   ├── services/
@@ -127,12 +124,12 @@ sales-lens/
 
 ## Deployment
 
-- **Backend:** use `infra/render.yaml`, configure env vars (`DATABASE_URL`, `REDIS_URL`, `HF_TOKEN`). Requires GPU instance.
+- **Backend:** use `infra/render.yaml`, configure env vars (`DATABASE_URL`, `REDIS_URL`, `HF_TOKEN`). Requires generous RAM.
 - **Frontend:** deploy `frontend/` on Vercel, set `NEXT_PUBLIC_API_URL` to backend URL.
 
-## How this maps to real-world sales intelligence
+## How this maps to real-world clinical workflows
 
-- **Rep coaching:** talk/listen ratio and objection heatpoints identify coaching opportunities.
-- **Pipeline hygiene:** action item extraction captures follow-up commitments automatically.
-- **Revenue risk visibility:** objection detection and sentiment trend reveal deal friction early.
-- **Enablement search:** RAG Q&A makes long calls instantly searchable for managers and reps.
+- **Automated Documentation:** SOAP note generation drastically reduces manual charting time for physicians.
+- **Patient Monitoring:** Sentiment timeline identifies emotional shifts during tele-health consultations.
+- **Treatment Tracking:** Automatic extraction of prescriptions and follow-ups captures critical care plans.
+- **Knowledge Retrieval:** RAG Q&A makes long patient calls instantly searchable for quick medical review.
