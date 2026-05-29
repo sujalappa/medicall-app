@@ -1,0 +1,4 @@
+model_id,status,clips,failures,avg_der,avg_jer,avg_infer_seconds,notes
+pyannote/speaker-diarization-community-1,ok,35,0,0.197144,0.280757,41.396136,Loaded as pipeline
+pyannote/speaker-diarization-3.1,ok,35,0,0.207897,0.294829,35.529830,Loaded as pipeline
+mhdp-africa/speaker-segmentation-fine-tuned-callhome,ok,35,0,0.207897,0.294829,35.575652,Loaded as pipeline

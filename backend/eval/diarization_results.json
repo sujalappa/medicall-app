@@ -1,0 +1,876 @@
+{
+  "aggregate": [
+    {
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "status": "ok",
+      "clips": 35,
+      "failures": 0,
+      "avg_der": 0.19714374569699508,
+      "avg_jer": 0.2807572073243463,
+      "avg_infer_seconds": 41.39613631142919,
+      "notes": "Loaded as pipeline"
+    },
+    {
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "status": "ok",
+      "clips": 35,
+      "failures": 0,
+      "avg_der": 0.20789653886692036,
+      "avg_jer": 0.29482918826110743,
+      "avg_infer_seconds": 35.529829791429805,
+      "notes": "Loaded as pipeline"
+    },
+    {
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "status": "ok",
+      "clips": 35,
+      "failures": 0,
+      "avg_der": 0.20789653886692036,
+      "avg_jer": 0.29482918826110743,
+      "avg_infer_seconds": 35.57565158856991,
+      "notes": "Loaded as pipeline"
+    }
+  ],
+  "per_clip": [
+    {
+      "clip_index": 0,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.13474440011538458,
+      "jer": 0.17370760281316347,
+      "infer_seconds": 69.98322239999834
+    },
+    {
+      "clip_index": 1,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.24054921813561206,
+      "jer": 0.28060964890426354,
+      "infer_seconds": 63.486777700003586
+    },
+    {
+      "clip_index": 2,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.2541051778311821,
+      "jer": 0.3826446524784554,
+      "infer_seconds": 29.251071599996067
+    },
+    {
+      "clip_index": 3,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.29530700580950897,
+      "jer": 0.29197575112541885,
+      "infer_seconds": 44.98004860000219
+    },
+    {
+      "clip_index": 4,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.149739140199193,
+      "jer": 0.17502628845352836,
+      "infer_seconds": 58.60069069999736
+    },
+    {
+      "clip_index": 5,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.22136640385219242,
+      "jer": 0.32996906765484574,
+      "infer_seconds": 30.004097899989574
+    },
+    {
+      "clip_index": 6,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.25887975566751037,
+      "jer": 0.505297758163084,
+      "infer_seconds": 30.063806399994064
+    },
+    {
+      "clip_index": 7,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.2666249749312363,
+      "jer": 0.38552694672470866,
+      "infer_seconds": 48.82993810001062
+    },
+    {
+      "clip_index": 8,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.16581046682271045,
+      "jer": 0.4556004793463068,
+      "infer_seconds": 14.95706020000216
+    },
+    {
+      "clip_index": 9,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.15922554796081714,
+      "jer": 0.18752877820302924,
+      "infer_seconds": 70.03199210000457
+    },
+    {
+      "clip_index": 10,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.10090440636326298,
+      "jer": 0.0989218647313497,
+      "infer_seconds": 29.511409400001867
+    },
+    {
+      "clip_index": 11,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.2124740246511111,
+      "jer": 0.20154133234399635,
+      "infer_seconds": 29.576486499994644
+    },
+    {
+      "clip_index": 12,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.23483062556699064,
+      "jer": 0.2541051848635349,
+      "infer_seconds": 29.704220100000384
+    },
+    {
+      "clip_index": 13,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.19450980826345385,
+      "jer": 0.2029239495331882,
+      "infer_seconds": 60.343308499999694
+    },
+    {
+      "clip_index": 14,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.11934636826029073,
+      "jer": 0.12188212949338266,
+      "infer_seconds": 69.94994150000275
+    },
+    {
+      "clip_index": 15,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.2907616611349493,
+      "jer": 0.5321939219117638,
+      "infer_seconds": 59.06095310000819
+    },
+    {
+      "clip_index": 16,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.26756902014030876,
+      "jer": 0.3236789628050907,
+      "infer_seconds": 43.67374159999599
+    },
+    {
+      "clip_index": 17,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.1490949483435093,
+      "jer": 0.1663554036168663,
+      "infer_seconds": 43.78208550000272
+    },
+    {
+      "clip_index": 18,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.27116837597403065,
+      "jer": 0.6699700939094055,
+      "infer_seconds": 29.54315760001191
+    },
+    {
+      "clip_index": 19,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.12898854277730698,
+      "jer": 0.1371388546745658,
+      "infer_seconds": 60.16358680000121
+    },
+    {
+      "clip_index": 20,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.17890367615351235,
+      "jer": 0.20227935091787813,
+      "infer_seconds": 29.545717700006207
+    },
+    {
+      "clip_index": 21,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.1302374889679673,
+      "jer": 0.14606051882948312,
+      "infer_seconds": 14.490244200002053
+    },
+    {
+      "clip_index": 22,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.1453304572588917,
+      "jer": 0.14856525970943368,
+      "infer_seconds": 29.688436399999773
+    },
+    {
+      "clip_index": 23,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.1410819217751938,
+      "jer": 0.4333074667262437,
+      "infer_seconds": 70.03366060000553
+    },
+    {
+      "clip_index": 24,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.27959556904257804,
+      "jer": 0.32496195915839865,
+      "infer_seconds": 14.714959000004455
+    },
+    {
+      "clip_index": 25,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.19544156407159058,
+      "jer": 0.1999607219604304,
+      "infer_seconds": 47.35417880000023
+    },
+    {
+      "clip_index": 26,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.16092560942776818,
+      "jer": 0.16819030576907157,
+      "infer_seconds": 29.77045559999533
+    },
+    {
+      "clip_index": 27,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.16790919827319023,
+      "jer": 0.16053111698808742,
+      "infer_seconds": 29.284757899993565
+    },
+    {
+      "clip_index": 28,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.322116316905797,
+      "jer": 0.5242279588549862,
+      "infer_seconds": 42.24742649999098
+    },
+    {
+      "clip_index": 29,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.18294888044213584,
+      "jer": 0.2172204543704539,
+      "infer_seconds": 43.15322439999727
+    },
+    {
+      "clip_index": 30,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.15061536904194117,
+      "jer": 0.1528634234984326,
+      "infer_seconds": 29.82906479999656
+    },
+    {
+      "clip_index": 31,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.2841087147498178,
+      "jer": 0.563581479486463,
+      "infer_seconds": 33.07230280000658
+    },
+    {
+      "clip_index": 32,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.10417507785017995,
+      "jer": 0.22787053529546164,
+      "infer_seconds": 45.19788959999278
+    },
+    {
+      "clip_index": 33,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.2625647256652091,
+      "jer": 0.35143714319729796,
+      "infer_seconds": 31.058264700011932
+    },
+    {
+      "clip_index": 34,
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "load_mode": "pipeline",
+      "der": 0.07807665696848992,
+      "jer": 0.12884588984005085,
+      "infer_seconds": 43.92659160000039
+    },
+    {
+      "clip_index": 0,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.13899117958087182,
+      "jer": 0.1818136739712194,
+      "infer_seconds": 15.23814560000028
+    },
+    {
+      "clip_index": 1,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.22471483572371442,
+      "jer": 0.2553250421343148,
+      "infer_seconds": 29.730237900002976
+    },
+    {
+      "clip_index": 2,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.2394654290613393,
+      "jer": 0.3865547783116783,
+      "infer_seconds": 14.830661100000725
+    },
+    {
+      "clip_index": 3,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.2943610495337101,
+      "jer": 0.29047742547954536,
+      "infer_seconds": 45.23230530000001
+    },
+    {
+      "clip_index": 4,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.14956643935010253,
+      "jer": 0.17511755686784927,
+      "infer_seconds": 29.632505300003686
+    },
+    {
+      "clip_index": 5,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.22376937303864736,
+      "jer": 0.3472713342531494,
+      "infer_seconds": 29.874505700005102
+    },
+    {
+      "clip_index": 6,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.25853414706122757,
+      "jer": 0.5049270589203243,
+      "infer_seconds": 29.892431100000977
+    },
+    {
+      "clip_index": 7,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.26872833342882996,
+      "jer": 0.39303013294598566,
+      "infer_seconds": 14.78520959999878
+    },
+    {
+      "clip_index": 8,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.1811308680262879,
+      "jer": 0.47396185627908194,
+      "infer_seconds": 14.887218100004247
+    },
+    {
+      "clip_index": 9,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.14895024455913106,
+      "jer": 0.17075019380097028,
+      "infer_seconds": 70.0049205999967
+    },
+    {
+      "clip_index": 10,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.10460878864425326,
+      "jer": 0.10585753483087715,
+      "infer_seconds": 29.642270299998927
+    },
+    {
+      "clip_index": 11,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.21384734389324248,
+      "jer": 0.20367248577773606,
+      "infer_seconds": 29.73097940000298
+    },
+    {
+      "clip_index": 12,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.23483062556699064,
+      "jer": 0.2541051848635349,
+      "infer_seconds": 29.719175899997936
+    },
+    {
+      "clip_index": 13,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.4872357340923045,
+      "jer": 0.6357186702240099,
+      "infer_seconds": 60.349841899995226
+    },
+    {
+      "clip_index": 14,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.12100336487336921,
+      "jer": 0.1250532145163004,
+      "infer_seconds": 70.03356939999503
+    },
+    {
+      "clip_index": 15,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.3904717778305601,
+      "jer": 0.5932512131276405,
+      "infer_seconds": 43.75414420000743
+    },
+    {
+      "clip_index": 16,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.2977060299679986,
+      "jer": 0.35329263064271504,
+      "infer_seconds": 43.60697140000411
+    },
+    {
+      "clip_index": 17,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.14601979456793282,
+      "jer": 0.1616210306974178,
+      "infer_seconds": 43.74200530000962
+    },
+    {
+      "clip_index": 18,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.2769517858542593,
+      "jer": 0.6746697886074156,
+      "infer_seconds": 29.733593999990262
+    },
+    {
+      "clip_index": 19,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.12663769807713374,
+      "jer": 0.13158290519893295,
+      "infer_seconds": 60.4455936000013
+    },
+    {
+      "clip_index": 20,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.1803613087537714,
+      "jer": 0.20643748517479152,
+      "infer_seconds": 29.422281799998018
+    },
+    {
+      "clip_index": 21,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.1343893163099557,
+      "jer": 0.15369664692044135,
+      "infer_seconds": 14.542305099996156
+    },
+    {
+      "clip_index": 22,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.14570742811336437,
+      "jer": 0.1499485454297466,
+      "infer_seconds": 29.850443799994537
+    },
+    {
+      "clip_index": 23,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.13708302559066216,
+      "jer": 0.42823154498379606,
+      "infer_seconds": 70.10889250000764
+    },
+    {
+      "clip_index": 24,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.26692089548720327,
+      "jer": 0.3101311071383343,
+      "infer_seconds": 14.74456769999233
+    },
+    {
+      "clip_index": 25,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.1970802153890888,
+      "jer": 0.2038861163444715,
+      "infer_seconds": 47.55475170000864
+    },
+    {
+      "clip_index": 26,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.1637718918587317,
+      "jer": 0.17302826420051626,
+      "infer_seconds": 29.85882720000518
+    },
+    {
+      "clip_index": 27,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.16769335984562272,
+      "jer": 0.1599228075897562,
+      "infer_seconds": 29.371583900006954
+    },
+    {
+      "clip_index": 28,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.32070601576939123,
+      "jer": 0.5220361314450005,
+      "infer_seconds": 29.799825200010673
+    },
+    {
+      "clip_index": 29,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.18481168555413394,
+      "jer": 0.22045388106540936,
+      "infer_seconds": 30.826582900001085
+    },
+    {
+      "clip_index": 30,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.15550910184764796,
+      "jer": 0.16168740319464003,
+      "infer_seconds": 29.941965200006962
+    },
+    {
+      "clip_index": 31,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.2717797413231866,
+      "jer": 0.554019094891426,
+      "infer_seconds": 33.00805059999402
+    },
+    {
+      "clip_index": 32,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.10024413460136986,
+      "jer": 0.21273439131024763,
+      "infer_seconds": 45.115297000011196
+    },
+    {
+      "clip_index": 33,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.2463508729503126,
+      "jer": 0.31739892426837135,
+      "infer_seconds": 30.86259350000182
+    },
+    {
+      "clip_index": 34,
+      "model_id": "pyannote/speaker-diarization-3.1",
+      "load_mode": "pipeline",
+      "der": 0.07644502421586398,
+      "jer": 0.1273555337311109,
+      "infer_seconds": 43.669788899991545
+    },
+    {
+      "clip_index": 0,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.13899117958087182,
+      "jer": 0.1818136739712194,
+      "infer_seconds": 15.065960599997197
+    },
+    {
+      "clip_index": 1,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.22471483572371442,
+      "jer": 0.2553250421343148,
+      "infer_seconds": 29.686694600008195
+    },
+    {
+      "clip_index": 2,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.2394654290613393,
+      "jer": 0.3865547783116783,
+      "infer_seconds": 14.87040590000106
+    },
+    {
+      "clip_index": 3,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.2943610495337101,
+      "jer": 0.29047742547954536,
+      "infer_seconds": 45.120143799998914
+    },
+    {
+      "clip_index": 4,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.14956643935010253,
+      "jer": 0.17511755686784927,
+      "infer_seconds": 29.631912800003192
+    },
+    {
+      "clip_index": 5,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.22376937303864736,
+      "jer": 0.3472713342531494,
+      "infer_seconds": 30.12895899999421
+    },
+    {
+      "clip_index": 6,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.25853414706122757,
+      "jer": 0.5049270589203243,
+      "infer_seconds": 29.94011589999718
+    },
+    {
+      "clip_index": 7,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.26872833342882996,
+      "jer": 0.39303013294598566,
+      "infer_seconds": 14.803654599993024
+    },
+    {
+      "clip_index": 8,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.1811308680262879,
+      "jer": 0.47396185627908194,
+      "infer_seconds": 14.827983900002437
+    },
+    {
+      "clip_index": 9,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.14895024455913106,
+      "jer": 0.17075019380097028,
+      "infer_seconds": 70.64291599999706
+    },
+    {
+      "clip_index": 10,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.10460878864425326,
+      "jer": 0.10585753483087715,
+      "infer_seconds": 29.701738000003388
+    },
+    {
+      "clip_index": 11,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.21384734389324248,
+      "jer": 0.20367248577773606,
+      "infer_seconds": 29.734279199998127
+    },
+    {
+      "clip_index": 12,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.23483062556699064,
+      "jer": 0.2541051848635349,
+      "infer_seconds": 29.61257050000131
+    },
+    {
+      "clip_index": 13,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.4872357340923045,
+      "jer": 0.6357186702240099,
+      "infer_seconds": 60.13431999999739
+    },
+    {
+      "clip_index": 14,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.12100336487336921,
+      "jer": 0.1250532145163004,
+      "infer_seconds": 69.82175969998934
+    },
+    {
+      "clip_index": 15,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.3904717778305601,
+      "jer": 0.5932512131276405,
+      "infer_seconds": 43.60548600000038
+    },
+    {
+      "clip_index": 16,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.2977060299679986,
+      "jer": 0.35329263064271504,
+      "infer_seconds": 43.39265000000887
+    },
+    {
+      "clip_index": 17,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.14601979456793282,
+      "jer": 0.1616210306974178,
+      "infer_seconds": 43.33297689999745
+    },
+    {
+      "clip_index": 18,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.2769517858542593,
+      "jer": 0.6746697886074156,
+      "infer_seconds": 29.670687999998336
+    },
+    {
+      "clip_index": 19,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.12663769807713374,
+      "jer": 0.13158290519893295,
+      "infer_seconds": 60.63758280000184
+    },
+    {
+      "clip_index": 20,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.1803613087537714,
+      "jer": 0.20643748517479152,
+      "infer_seconds": 29.65971669999999
+    },
+    {
+      "clip_index": 21,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.1343893163099557,
+      "jer": 0.15369664692044135,
+      "infer_seconds": 14.490694799998892
+    },
+    {
+      "clip_index": 22,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.14570742811336437,
+      "jer": 0.1499485454297466,
+      "infer_seconds": 29.670915400012746
+    },
+    {
+      "clip_index": 23,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.13708302559066216,
+      "jer": 0.42823154498379606,
+      "infer_seconds": 70.37503959999594
+    },
+    {
+      "clip_index": 24,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.26692089548720327,
+      "jer": 0.3101311071383343,
+      "infer_seconds": 14.805108300002757
+    },
+    {
+      "clip_index": 25,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.1970802153890888,
+      "jer": 0.2038861163444715,
+      "infer_seconds": 47.8477172999992
+    },
+    {
+      "clip_index": 26,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.1637718918587317,
+      "jer": 0.17302826420051626,
+      "infer_seconds": 29.733404999991762
+    },
+    {
+      "clip_index": 27,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.16769335984562272,
+      "jer": 0.1599228075897562,
+      "infer_seconds": 29.45086739999533
+    },
+    {
+      "clip_index": 28,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.32070601576939123,
+      "jer": 0.5220361314450005,
+      "infer_seconds": 29.85566899999685
+    },
+    {
+      "clip_index": 29,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.18481168555413394,
+      "jer": 0.22045388106540936,
+      "infer_seconds": 30.97400750000088
+    },
+    {
+      "clip_index": 30,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.15550910184764796,
+      "jer": 0.16168740319464003,
+      "infer_seconds": 29.965251699992223
+    },
+    {
+      "clip_index": 31,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.2717797413231866,
+      "jer": 0.554019094891426,
+      "infer_seconds": 33.15957979999075
+    },
+    {
+      "clip_index": 32,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.10024413460136986,
+      "jer": 0.21273439131024763,
+      "infer_seconds": 45.70407149998937
+    },
+    {
+      "clip_index": 33,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.2463508729503126,
+      "jer": 0.31739892426837135,
+      "infer_seconds": 30.963841299992055
+    },
+    {
+      "clip_index": 34,
+      "model_id": "mhdp-africa/speaker-segmentation-fine-tuned-callhome",
+      "load_mode": "pipeline",
+      "der": 0.07644502421586398,
+      "jer": 0.1273555337311109,
+      "infer_seconds": 44.12912209999922
+    }
+  ]
+}
