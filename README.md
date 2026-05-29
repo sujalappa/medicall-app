@@ -4,6 +4,8 @@ Upload a medical call, stream transcription in real time, get AI-powered clinica
 
 ## Architecture
 
+![Architecture Diagram](docs/architecture.png)
+
 ```
 POST /calls/upload          →  save audio, create DB record
 WS   /calls/{id}/stream     →  transcribe → diarize → stream → analyze → insights
