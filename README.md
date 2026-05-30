@@ -123,15 +123,3 @@ medicall-app/
 │   └── lib/                       # API client + types
 └── infra/                         # Docker Compose + Render config
 ```
-
-## Deployment
-
-- **Backend:** use `infra/render.yaml`, configure env vars (`DATABASE_URL`, `REDIS_URL`, `HF_TOKEN`). Requires generous RAM.
-- **Frontend:** deploy `frontend/` on Vercel, set `NEXT_PUBLIC_API_URL` to backend URL.
-
-## How this maps to real-world clinical workflows
-
-- **Automated Documentation:** SOAP note generation drastically reduces manual charting time for physicians.
-- **Patient Monitoring:** Sentiment timeline identifies emotional shifts during tele-health consultations.
-- **Treatment Tracking:** Automatic extraction of prescriptions and follow-ups captures critical care plans.
-- **Knowledge Retrieval:** RAG Q&A makes long patient calls instantly searchable for quick medical review.
