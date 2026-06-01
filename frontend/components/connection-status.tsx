@@ -9,6 +9,7 @@ const statusConfig: Record<ConnectionStatusType, { label: string; color: string;
   connecting: { label: "Connecting", color: "#b45309", bgColor: "#f59e0b" },
   reconnecting: { label: "Reconnecting", color: "#b45309", bgColor: "#f59e0b" },
   closed: { label: "Disconnected", color: "#dc2626", bgColor: "#ef4444" },
+  completed: { label: "Analysis Complete", color: "#15803d", bgColor: "#22c55e" },
 };
 
 export function ConnectionStatus({ status }: ConnectionStatusProps) {

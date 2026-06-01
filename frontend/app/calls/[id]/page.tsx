@@ -37,6 +37,8 @@ export default function CallDashboard() {
           setInsights(data);
           setProgress(100);
           completed = true;
+          setConnection("completed");
+          setGlobalConnection("completed");
         }
       } catch {
         // insights not ready yet
@@ -103,8 +105,8 @@ export default function CallDashboard() {
         if (!completed) {
           loadInsights().then(() => {
             if (completed) {
-              setConnection("closed");
-              setGlobalConnection("closed");
+              setConnection("completed");
+              setGlobalConnection("completed");
               return;
             }
             // Still not done, keep retrying websocket
@@ -113,8 +115,8 @@ export default function CallDashboard() {
             retryTimer = setTimeout(() => connect(true), 2000);
           });
         } else {
-          setConnection("closed");
-          setGlobalConnection("closed");
+          setConnection("completed");
+          setGlobalConnection("completed");
         }
       };
     };

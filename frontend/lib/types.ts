@@ -59,7 +59,7 @@ export interface QAResponse {
   sources?: string[];
 }
 
-export type ConnectionStatus = "connecting" | "connected" | "reconnecting" | "closed";
+export type ConnectionStatus = "connecting" | "connected" | "reconnecting" | "closed" | "completed";
 
 export interface StreamEvent {
   type: string;
