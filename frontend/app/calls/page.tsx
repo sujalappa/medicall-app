@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { fetchCalls } from "../../lib/api";
 import { EmptyState } from "../../components/empty-state";
+import type { Call } from "../../lib/types";
 
 function formatDate(dateStr: string): string {
   const date = new Date(dateStr);
