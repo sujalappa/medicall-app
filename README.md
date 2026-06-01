@@ -1,3 +1,13 @@
+---
+title: MediCall Backend
+emoji: 🩺
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # MediCall — AI-powered Clinical Intelligence
 
 Upload a medical call, stream transcription in real time, get AI-powered clinical insights (like SOAP notes), and ask grounded questions over the transcript.
