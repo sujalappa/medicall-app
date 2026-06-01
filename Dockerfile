@@ -19,6 +19,7 @@ WORKDIR $HOME/app
 
 # Copy dependency definition files from backend directory
 COPY --chown=user backend/pyproject.toml backend/uv.lock* ./
+COPY --chown=user README.md /home/user/
 
 # Install uv and sync dependencies (excluding project build to avoid package mapping issues)
 RUN pip install --no-cache-dir uv && \
@@ -30,5 +31,5 @@ COPY --chown=user backend/ .
 # Expose Hugging Face Space port
 EXPOSE 7860
 
-# Run alembic migrations and start uvicorn
-CMD ["sh", "-c", "uv run alembic upgrade head && uv run uvicorn app.main:app --host 0.0.0.0 --port 7860"]
+# Run alembic migrations and start uvicorn without installing the project
+CMD ["sh", "-c", "uv run --no-project alembic upgrade head && uv run --no-project uvicorn app.main:app --host 0.0.0.0 --port 7860"]
